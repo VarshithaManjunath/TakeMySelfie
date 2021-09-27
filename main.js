@@ -18,7 +18,7 @@ var Content = event.results[0][0].transcript;
 
     Textbox.innerHTML = Content;
     console.log(Content);
-      if(Content =="take my selfie")
+      if(Content =="take my selfie"|| "Take my selfie")
       {
         console.log("taking selfie --- ");
         speak();
